@@ -24,6 +24,30 @@
 			) );
 		?>
 	</div><!-- .entry-content -->
+	
+		<?php $images = rwmb_meta( 'rw_gallery_thumb', 'type=image&size=large' ); 
+	         if ( $images ) {?>
+	         <div class="entry-gallery">
+		         <div class="slides">
+
+	             
+		            
+		                 <?php foreach ( $images as $image ){?>
+		                     
+		                     <img src="<?php echo $image['url'] ?>" alt="<?php the_title(); ?>" />
+		                  
+		                  <?php } ?>
+
+		                 
+		            
+	 			  <span class="cycle-prev"> <i class="fa fa-angle-left"></i> </span>
+	              <span class="cycle-next"> <i class="fa fa-angle-right"></i> </span>
+	             </div>
+             </div>
+	         <?php         
+	              }
+	          ?>
+	</div>
 
 	<?php if ( get_edit_post_link() ) : ?>
 		<footer class="entry-footer">
