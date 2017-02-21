@@ -13,21 +13,10 @@
 	<header class="entry-header">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
-
-	<div class="entry-content">
-		<?php
-			the_content();
-
-			wp_link_pages( array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'happytour' ),
-				'after'  => '</div>',
-			) );
-		?>
-	</div><!-- .entry-content -->
 	
-		<?php $images = rwmb_meta( 'rw_gallery_thumb', 'type=image&size=large' ); 
+	<?php $images = rwmb_meta( 'rw_gallery_thumb', 'type=image&size=large' ); 
 	         if ( $images ) {?>
-	         <div class="entry-gallery alingright">
+	         <div class="entry-gallery alignright">
 		         <div class="slides">
 
 	             
@@ -47,7 +36,19 @@
 	         <?php         
 	              }
 	          ?>
-	</div>
+	<div class="entry-content">
+		<?php
+			the_content();
+
+			wp_link_pages( array(
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'happytour' ),
+				'after'  => '</div>',
+			) );
+		?>
+	</div><!-- .entry-content -->
+	
+		
+	
 
 	<?php if ( get_edit_post_link() ) : ?>
 		<footer class="entry-footer">
