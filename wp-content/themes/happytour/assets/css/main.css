@@ -1028,7 +1028,8 @@ textarea {
 .entry-gallery img {
   width: 100%;
 }
-.entry-gallery .cycle-prev .cycle-next {
+.entry-gallery .cycle-prev,
+.entry-gallery .cycle-next {
   cursor: pointer;
   color: #fff;
   font-size: 2.5rem;
@@ -1041,10 +1042,10 @@ textarea {
   transform: translate(0, -50%);
   z-index: 900;
 }
-.entry-gallery .cycle-prev .cycle-prev {
+.entry-gallery .cycle-prev {
   left: 1rem;
 }
-.entry-gallery .cycle-prev .cycle-next {
+.entry-gallery .cycle-next {
   right: 0.5rem;
 }
 .tour-popup {
