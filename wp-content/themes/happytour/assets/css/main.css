@@ -1022,6 +1022,28 @@ textarea {
     padding: 10% 35px;
   }
 }
+.entry-gallery img {
+  width: 100%;
+}
+.entry-gallery .cycle-prev .cycle-next {
+  cursor: pointer;
+  color: #fff;
+  font-size: 2.5rem;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  z-index: 900;
+}
+.entry-gallery .cycle-prev .cycle-prev {
+  left: 1rem;
+}
+.entry-gallery .cycle-prev .cycle-next {
+  right: 0.5rem;
+}
 .tour-popup {
   position: relative;
 }
