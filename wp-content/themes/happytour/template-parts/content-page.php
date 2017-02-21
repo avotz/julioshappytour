@@ -27,7 +27,7 @@
 	
 		<?php $images = rwmb_meta( 'rw_gallery_thumb', 'type=image&size=large' ); 
 	         if ( $images ) {?>
-	         <div class="entry-gallery">
+	         <div class="entry-gallery alingright">
 		         <div class="slides">
 
 	             

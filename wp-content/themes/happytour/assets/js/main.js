@@ -30,7 +30,7 @@
         
         $modal = $('.tour-popup');
         $page = $('.page');
-        $page.find('.gallery .slides').cycle();
+        $page.find('.entry-gallery .slides').cycle();
         function showModal(post_id) {
                 $modal.find('.title').html('');
                 $modal.find('.content').html('Loading...');
