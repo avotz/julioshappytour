@@ -205,6 +205,16 @@
        
     });
 
+    $form_request = $('.side-bar form');
+
+      $('.btn-reserve').on('click', function(){
+          
+           $('.side-bar').addClass('open');
+          //$form_transfer.find('select[name="destination"] option[value="'+ $(this).data('title') +'"]').attr("selected",'selected');
+          $form_request.find('select[name="tour"]').val($('#tour-popup h3.title').text());
+
+      });
+
    
 
     /* $('.btn-open-tour').on('click', function(){

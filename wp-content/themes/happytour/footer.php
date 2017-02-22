@@ -54,6 +54,7 @@
         <div class="content">
             <span>Loading...</span>
         </div>
+        <a href="#" class="btn btn-reserve">Reserve Now</a>
         
        
 

@@ -918,7 +918,7 @@ textarea {
   background-color: #ffd675;
   top: 60px;
   right: -320px;
-  z-index: 8;
+  z-index: 9999;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
