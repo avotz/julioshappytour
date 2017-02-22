@@ -362,13 +362,16 @@ textarea
 	height 100%
 	position fixed
 	background-color #FFD675
-	top 60px
+	top 0//60px
 	right -320px//-350px
 	z-index 9999
 	transition all .5s ease
+	
 	&.open
+		position absolute
 		right 0
-
+		height 700px//100%
+		
 		
 	h1
 		font-size 2em
@@ -384,7 +387,7 @@ textarea
 	.image 
 		background-color #FFF
 		padding 0
-		width 350px
+		width auto//350px
 		height 20%
 		overflow hidden
 		position relative
@@ -405,6 +408,8 @@ textarea
 		width 280px
 		overflow hidden
 		letter-spacing 2px
+		//overflow scroll
+		//height 200px
 
 		h2 
 			margin-top 0
@@ -452,8 +457,12 @@ textarea
 		&:before*/
 @media screen and (min-width: 768px)
 	.side-bar
+		top 60px
 		width 350px
 		right -350px
+		&.open
+			position fixed
+			height 100%
 		.content
 			padding 10% 35px
 .entry-gallery

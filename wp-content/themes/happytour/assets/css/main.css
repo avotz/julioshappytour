@@ -916,7 +916,7 @@ textarea {
   height: 100%;
   position: fixed;
   background-color: #ffd675;
-  top: 60px;
+  top: 0;
   right: -320px;
   z-index: 9999;
   -webkit-transition: all 0.5s ease;
@@ -926,7 +926,9 @@ textarea {
   transition: all 0.5s ease;
 }
 .side-bar.open {
+  position: absolute;
   right: 0;
+  height: 700px;
 }
 .side-bar h1 {
   font-size: 2em;
@@ -942,7 +944,7 @@ textarea {
 .side-bar .image {
   background-color: #fff;
   padding: 0;
-  width: 350px;
+  width: auto;
   height: 20%;
   overflow: hidden;
   position: relative;
@@ -1016,8 +1018,13 @@ textarea {
 }
 @media screen and (min-width: 768px) {
   .side-bar {
+    top: 60px;
     width: 350px;
     right: -350px;
+  }
+  .side-bar.open {
+    position: fixed;
+    height: 100%;
   }
   .side-bar .content {
     padding: 10% 35px;
