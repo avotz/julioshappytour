@@ -42,7 +42,7 @@
   
     <div id="tour-popup" class="tour-popup white-popup mfp-hide mfp-with-anim">
         <h3 class="title"></h3>
-        <span class="tag">Relaxing massage included</span>
+        <span class="tag">Ask for Relaxing massage</span>
         <div class="gallery">
              <div class="slides">
 
