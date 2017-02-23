@@ -25,6 +25,7 @@
             <div class="image">
                 <div class="title">
                     <h2>For more information</h2>
+                    <p>Telephone: +506 8907 3524</p>
                 </div>
                 <div class="gradient"></div>
                 <img src="<?php echo get_template_directory_uri();  ?>/img/bg_sidebar.jpg" alt="Img" />
