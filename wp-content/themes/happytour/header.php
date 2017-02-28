@@ -24,10 +24,10 @@
  <header class="header">
     <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo"> <img src="<?php echo get_template_directory_uri();  ?>/img/logo.png" alt="Logo" /> </a>
      <div class="copyright">
-        <a href="http://www.avotz.com" class="avotz" target="_blank"><i class="icon icon-avotz"></i></a>
+        <!-- <a href="http://www.avotz.com" class="avotz" target="_blank"><i class="icon icon-avotz"></i></a> -->
     </div>
      <div class="redes">
-        <a href="https://www.facebook.com/ATVtourswithjulios/" class="facebook" target="_blank"><i class="icon icon-facebook"></i></a>
+        <a href="https://www.facebook.com/JuliosHappyTourCostaRica/" class="facebook" target="_blank"><i class="icon icon-facebook"></i></a>
         <a href="https://www.tripadvisor.com.mx/members/julioricardoo" class="tripadvisor" target="_blank"><i class="icon fa fa-tripadvisor"></i></a>
        
 
