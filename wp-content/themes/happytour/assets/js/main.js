@@ -61,7 +61,7 @@
         type: 'inline',
         midClick: true,
         removalDelay: 500, //delay removal by X to allow out-animation
-        closeOnContentClick: true,
+        closeOnContentClick: false,
         callbacks: {
             beforeOpen: function() {
 
