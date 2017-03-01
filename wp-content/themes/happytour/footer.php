@@ -25,7 +25,8 @@
             <div class="image">
                 <div class="title">
                     <h2>For more information</h2>
-                    <p>Telephone: +506 8907 3524</p>
+                    Telephone: <a href="tel:+50689073524">+506 8907 3524</a><br>
+                    <a href="mailto::reservations@julioshappytour.com">reservations@julioshappytour.com</a>
                 </div>
                 <div class="gradient"></div>
                 <img src="<?php echo get_template_directory_uri();  ?>/img/bg_sidebar.jpg" alt="Img" />
