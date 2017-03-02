@@ -205,6 +205,30 @@
 
        
     });
+    $('.menu-item-99 a').magnificPopup({
+        type: 'inline',
+        midClick: true,
+        removalDelay: 500, //delay removal by X to allow out-animation
+        callbacks: {
+            beforeOpen: function() {
+
+                this.st.mainClass = 'mfp-zoom-out';
+                $('body').addClass('mfp-open');
+
+                var post_id = this.st.el.attr('data-tour');
+
+               showModal(post_id);
+            },
+            beforeClose: function() {
+
+               
+                $('body').removeClass('mfp-open');
+            }
+
+        }
+
+       
+    });
 
     $form_request = $('.side-bar form');
 
