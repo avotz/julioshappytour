@@ -238,6 +238,8 @@
           //$form_transfer.find('select[name="destination"] option[value="'+ $(this).data('title') +'"]').attr("selected",'selected');
           $form_request.find('select[name="tour"]').val($('#tour-popup h3.title').text());
 
+          $('.mfp-close').click();
+
       });
 
    
