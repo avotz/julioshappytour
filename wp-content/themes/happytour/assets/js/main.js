@@ -36,6 +36,7 @@
                 $modal.find('.content').html('Loading...');
                 $modal.find('.gallery .slides').cycle('destroy');
                 $modal.find('.gallery .slides img').remove();
+                $modal.find('iframe').remove();
                 $.ajax({
                       type: 'GET',
                       url: '/wp-json/wp/v2/tour/'+post_id,//'/api/get_post/?id='+ post_id +'&post_type=tour',
@@ -43,13 +44,18 @@
                       success: function(data){
                           console.log(data)
                           $modal.find('.title').html(data.title.rendered);
-                          $modal.find('.content').html(data.content.rendered);
+                          $modal.find('.content').html(data.content.rendered).attr('data-tour', post_id);
                           $gallery = data.meta_box.rw_gallery_thumb;
                           $.each($gallery, function (i, item) {
                               $modal.find('.gallery .slides').append('<img src="'+ item.full_url +'" alt="'+ data.title.rendered +'" />');
                           });
                           
                           $modal.find('.gallery .slides').cycle();
+                            
+                            if(post_id == 53){
+
+                              $modal.find('.btn-reserve').before('<iframe width="560" height="315" src="https://www.youtube.com/embed/BSAzpF6FHug" frameborder="0" allowfullscreen></iframe><br>');
+                            }
                       },
                       error:function(){
                           $modal.find('.content').html('<p>Ohh Error</p>');

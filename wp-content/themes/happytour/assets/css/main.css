@@ -1060,6 +1060,9 @@ textarea {
 .tour-popup {
   position: relative;
 }
+.tour-popup iframe {
+  width: 100%;
+}
 .tour-popup .img,
 .tour-popup .content {
   display: block;
