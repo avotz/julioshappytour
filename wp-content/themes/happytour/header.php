@@ -29,6 +29,7 @@
      <div class="redes">
         <a href="https://www.facebook.com/JuliosHappyTourCostaRica/" class="facebook" target="_blank"><i class="icon icon-facebook"></i></a>
         <a href="https://www.tripadvisor.com/Attraction_Review-g6510596-d12202580-Reviews-Julio_s_Happy_Tour-El_Jobo_Province_of_Guanacaste.html" class="tripadvisor" target="_blank"><i class="icon fa fa-tripadvisor"></i></a>
+        <a href="https://www.youtube.com/channel/UCVRZjtHL368Qnriin7AJ1YA" class="youtube" target="_blank"><i class="icon fa fa-youtube"></i></a>
        
 
     </div>
