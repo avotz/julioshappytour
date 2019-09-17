@@ -14,7 +14,7 @@
 	<footer class="footer">  
          <a href="#tour-popup" class="fb btn-open-tour" data-tour="53"><span class="pico"></span><span class="title"> Amigo ATV   <br/> <span> Monkey Tours</span> </span> <span class="img"></span></a>
         <a href="#tour-popup" class="fb btn-open-tour" data-tour="52"><span class="pico"></span><span class="title"> Mega  <br/> <span> Combo Tour</span> </span> <span class="img"></span></a>
-        <a href="#tour-popup" class="fc btn-open-tour" data-tour="30"><span class="pico"></span><span class="title"> Miravalles Volcano  <br/> <span> and Waterfall Tour </span> </span> <span class="img"></span></a>
+        <a href="#tour-popup" class="fc btn-open-tour" data-tour="30"><span class="pico"></span><span class="title"> Happy Sloths  <br/> <span> and Waterfall Tour </span> </span> <span class="img"></span></a>
         <a href="#tour-popup" class="f1 btn-open-tour" data-tour="29"><span class="pico"></span><span class="title"> Adventures <br/> <span> in the sea</span> </span> <span class="img"></span></a>
         <a href="#tour-popup" class="fd btn-open-tour" data-tour="32"><span class="pico"></span><span class="title"> Nicaragua 
  <br/> <span> Day Tour </span> </span> <span class="img"></span></a>
